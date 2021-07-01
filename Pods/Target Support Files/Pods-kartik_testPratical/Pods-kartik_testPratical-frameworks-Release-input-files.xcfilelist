@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework
+${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework

@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.4.1)
+  - ObjectMapper (4.2.0)
+  - SwiftyJSON (5.0.1)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper (~> 4.2)
+  - SwiftyJSON
+  - TwitterKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - SwiftyJSON
+    - TwitterCore
+    - TwitterKit
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: f789eb00113a4358dd9927505c762161c6ad01d3
+
+COCOAPODS: 1.10.0

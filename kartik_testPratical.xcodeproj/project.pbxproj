@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5300C086268D044600867142 /* PassengerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5300C085268D044600867142 /* PassengerListModel.swift */; };
+		5301A396268CB41900BA5F1B /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301A395268CB41900BA5F1B /* UserDetailsVC.swift */; };
+		5301A39A268CB9B000BA5F1B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301A399268CB9B000BA5F1B /* User.swift */; };
+		5301A39E268CC40900BA5F1B /* helperFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301A39D268CC40900BA5F1B /* helperFile.swift */; };
+		5301C4B1268D6AA80037797B /* FriendListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301C4B0268D6AA80037797B /* FriendListModel.swift */; };
+		5301C4B4268D7EE40037797B /* UserListTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5301C4B3268D7EE40037797B /* UserListTblCell.swift */; };
+		53336501268C2EA4000F68C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53336500268C2EA4000F68C7 /* AppDelegate.swift */; };
+		53336503268C2EA4000F68C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53336502268C2EA4000F68C7 /* SceneDelegate.swift */; };
+		53336505268C2EA4000F68C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53336504268C2EA4000F68C7 /* ViewController.swift */; };
+		53336508268C2EA4000F68C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53336506268C2EA4000F68C7 /* Main.storyboard */; };
+		5333650A268C2EA7000F68C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53336509268C2EA7000F68C7 /* Assets.xcassets */; };
+		5333650D268C2EA7000F68C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5333650B268C2EA7000F68C7 /* LaunchScreen.storyboard */; };
+		534AF51B268D0CE2005E7EE6 /* ApiManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AF51A268D0CE2005E7EE6 /* ApiManger.swift */; };
+		534AF51F268D3773005E7EE6 /* PassengerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AF51E268D3773005E7EE6 /* PassengerListVC.swift */; };
+		534AF523268D3B75005E7EE6 /* PassengerTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534AF522268D3B75005E7EE6 /* PassengerTblCell.swift */; };
+		EE8B02EF5CA205030C022316 /* Pods_kartik_testPratical.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51743009862D09719BCA9020 /* Pods_kartik_testPratical.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16F2E21E361369A688DD3F1E /* Pods-kartik_testPratical.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kartik_testPratical.release.xcconfig"; path = "Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical.release.xcconfig"; sourceTree = "<group>"; };
+		51743009862D09719BCA9020 /* Pods_kartik_testPratical.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kartik_testPratical.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5300C085268D044600867142 /* PassengerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerListModel.swift; sourceTree = "<group>"; };
+		5301A395268CB41900BA5F1B /* UserDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
+		5301A399268CB9B000BA5F1B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5301A39D268CC40900BA5F1B /* helperFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helperFile.swift; sourceTree = "<group>"; };
+		5301C4B0268D6AA80037797B /* FriendListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListModel.swift; sourceTree = "<group>"; };
+		5301C4B3268D7EE40037797B /* UserListTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListTblCell.swift; sourceTree = "<group>"; };
+		533364FD268C2EA4000F68C7 /* kartik_testPratical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kartik_testPratical.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53336500268C2EA4000F68C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53336502268C2EA4000F68C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		53336504268C2EA4000F68C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53336507268C2EA4000F68C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53336509268C2EA7000F68C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5333650C268C2EA7000F68C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5333650E268C2EA7000F68C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		534AF51A268D0CE2005E7EE6 /* ApiManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManger.swift; sourceTree = "<group>"; };
+		534AF51E268D3773005E7EE6 /* PassengerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerListVC.swift; sourceTree = "<group>"; };
+		534AF522268D3B75005E7EE6 /* PassengerTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerTblCell.swift; sourceTree = "<group>"; };
+		A5F4F3B1649E6651B2837965 /* Pods-kartik_testPratical.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kartik_testPratical.debug.xcconfig"; path = "Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533364FA268C2EA4000F68C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8B02EF5CA205030C022316 /* Pods_kartik_testPratical.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46DCEC95532A368E29FEC7E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51743009862D09719BCA9020 /* Pods_kartik_testPratical.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5301A398268CB99000BA5F1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5301A399268CB9B000BA5F1B /* User.swift */,
+				5300C085268D044600867142 /* PassengerListModel.swift */,
+				5301C4B0268D6AA80037797B /* FriendListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5301A39C268CC3F200BA5F1B /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				5301A39D268CC40900BA5F1B /* helperFile.swift */,
+				534AF51A268D0CE2005E7EE6 /* ApiManger.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		5301C4B6268D96720037797B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				53336504268C2EA4000F68C7 /* ViewController.swift */,
+				5301A395268CB41900BA5F1B /* UserDetailsVC.swift */,
+				534AF51E268D3773005E7EE6 /* PassengerListVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		533364F4268C2EA4000F68C7 = {
+			isa = PBXGroup;
+			children = (
+				533364FF268C2EA4000F68C7 /* kartik_testPratical */,
+				533364FE268C2EA4000F68C7 /* Products */,
+				A70E4A4B871E7FBC97B34B2E /* Pods */,
+				46DCEC95532A368E29FEC7E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		533364FE268C2EA4000F68C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533364FD268C2EA4000F68C7 /* kartik_testPratical.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533364FF268C2EA4000F68C7 /* kartik_testPratical */ = {
+			isa = PBXGroup;
+			children = (
+				5301C4B6268D96720037797B /* Controller */,
+				534AF521268D3B5C005E7EE6 /* View */,
+				5301A39C268CC3F200BA5F1B /* resource */,
+				5301A398268CB99000BA5F1B /* Model */,
+				53336500268C2EA4000F68C7 /* AppDelegate.swift */,
+				53336502268C2EA4000F68C7 /* SceneDelegate.swift */,
+				53336506268C2EA4000F68C7 /* Main.storyboard */,
+				53336509268C2EA7000F68C7 /* Assets.xcassets */,
+				5333650B268C2EA7000F68C7 /* LaunchScreen.storyboard */,
+				5333650E268C2EA7000F68C7 /* Info.plist */,
+			);
+			path = kartik_testPratical;
+			sourceTree = "<group>";
+		};
+		534AF521268D3B5C005E7EE6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				534AF522268D3B75005E7EE6 /* PassengerTblCell.swift */,
+				5301C4B3268D7EE40037797B /* UserListTblCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A70E4A4B871E7FBC97B34B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4F3B1649E6651B2837965 /* Pods-kartik_testPratical.debug.xcconfig */,
+				16F2E21E361369A688DD3F1E /* Pods-kartik_testPratical.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533364FC268C2EA4000F68C7 /* kartik_testPratical */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53336511268C2EA7000F68C7 /* Build configuration list for PBXNativeTarget "kartik_testPratical" */;
+			buildPhases = (
+				118566AD519FD28F4E1B178A /* [CP] Check Pods Manifest.lock */,
+				533364F9268C2EA4000F68C7 /* Sources */,
+				533364FA268C2EA4000F68C7 /* Frameworks */,
+				533364FB268C2EA4000F68C7 /* Resources */,
+				41F176DFFCF28B65B582CBD4 /* [CP] Embed Pods Frameworks */,
+				9217BF9298B437B9D379BBFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kartik_testPratical;
+			productName = kartik_testPratical;
+			productReference = 533364FD268C2EA4000F68C7 /* kartik_testPratical.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533364F5268C2EA4000F68C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					533364FC268C2EA4000F68C7 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 533364F8268C2EA4000F68C7 /* Build configuration list for PBXProject "kartik_testPratical" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533364F4268C2EA4000F68C7;
+			productRefGroup = 533364FE268C2EA4000F68C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533364FC268C2EA4000F68C7 /* kartik_testPratical */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533364FB268C2EA4000F68C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5333650D268C2EA7000F68C7 /* LaunchScreen.storyboard in Resources */,
+				5333650A268C2EA7000F68C7 /* Assets.xcassets in Resources */,
+				53336508268C2EA4000F68C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		118566AD519FD28F4E1B178A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kartik_testPratical-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41F176DFFCF28B65B582CBD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9217BF9298B437B9D379BBFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-kartik_testPratical/Pods-kartik_testPratical-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533364F9268C2EA4000F68C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5301A396268CB41900BA5F1B /* UserDetailsVC.swift in Sources */,
+				53336505268C2EA4000F68C7 /* ViewController.swift in Sources */,
+				534AF51F268D3773005E7EE6 /* PassengerListVC.swift in Sources */,
+				5301C4B1268D6AA80037797B /* FriendListModel.swift in Sources */,
+				53336501268C2EA4000F68C7 /* AppDelegate.swift in Sources */,
+				5301C4B4268D7EE40037797B /* UserListTblCell.swift in Sources */,
+				5301A39E268CC40900BA5F1B /* helperFile.swift in Sources */,
+				5301A39A268CB9B000BA5F1B /* User.swift in Sources */,
+				53336503268C2EA4000F68C7 /* SceneDelegate.swift in Sources */,
+				534AF51B268D0CE2005E7EE6 /* ApiManger.swift in Sources */,
+				5300C086268D044600867142 /* PassengerListModel.swift in Sources */,
+				534AF523268D3B75005E7EE6 /* PassengerTblCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53336506268C2EA4000F68C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53336507268C2EA4000F68C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5333650B268C2EA7000F68C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5333650C268C2EA7000F68C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5333650F268C2EA7000F68C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53336510268C2EA7000F68C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53336512268C2EA7000F68C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5F4F3B1649E6651B2837965 /* Pods-kartik_testPratical.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = kartik_testPratical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kartikTest.kartik-testPratical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53336513268C2EA7000F68C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F2E21E361369A688DD3F1E /* Pods-kartik_testPratical.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = kartik_testPratical/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kartikTest.kartik-testPratical";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533364F8268C2EA4000F68C7 /* Build configuration list for PBXProject "kartik_testPratical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5333650F268C2EA7000F68C7 /* Debug */,
+				53336510268C2EA7000F68C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53336511268C2EA7000F68C7 /* Build configuration list for PBXNativeTarget "kartik_testPratical" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53336512268C2EA7000F68C7 /* Debug */,
+				53336513268C2EA7000F68C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533364F5268C2EA4000F68C7 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_kartik_testPratical {
+  umbrella header "Pods-kartik_testPratical-umbrella.h"
+
+  export *
+  module * { export * }
+}
